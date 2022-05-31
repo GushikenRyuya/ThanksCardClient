@@ -19,6 +19,7 @@
                     <DataGridTextColumn Header="名前" Binding="{Binding Name}" />
                     <DataGridTextColumn Header="パスワード" Binding="{Binding Password}" />
                     <DataGridTextColumn Header="管理者" Binding="{Binding IsAdmin}" />
+                    <DataGridTextColumn Header="テスト" Binding="{Binding Istest}" />
                     <DataGridTextColumn Header="部署" Binding="{Binding Department.Name}" />
                     <DataGridTemplateColumn Header="">
                         <DataGridTemplateColumn.CellTemplate>

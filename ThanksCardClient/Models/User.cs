@@ -47,6 +47,15 @@ namespace ThanksCardClient.Models
         }
         #endregion
 
+        #region IstestProperty
+        private bool _Istest;
+        public bool Istest
+        {
+            get { return _Istest; }
+            set { SetProperty(ref _Istest, value); }
+        }
+        #endregion
+
         #region DepartmentIdProperty
         private long? _DepartmentId;
         public long? DepartmentId
